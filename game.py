@@ -24,3 +24,14 @@ print("USER CHOSE:", u)
 
 
 
+#COMPUTER CHOICE 
+
+
+
+
+#DETERMINE THE WINNER
+
+
+
+
+
