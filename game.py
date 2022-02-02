@@ -1,25 +1,22 @@
 
-
-
-#
 # todo: write some Python code here to satisfy the exercise objectives
 # ... https://github.com/prof-rossetti/intro-to-python/blob/main/exercises/rock-paper-scissors/README.md
 #
 
 
-
-
-
-
 #ASK FOR USER INPUT 
-u = input("Please choose one of: 'rock', 'paper', 'scissors'")
+user_choice = input("Please choose one of: 'rock', 'paper', 'scissors'")
 
-print("USER CHOSE:", u)
+print("USER CHOSE:", user_choice)
 
 
 
 #VALIDATIONS 
-
+user_choice = user_choice.lower
+if user_choice not in ["rock", "Rock","Scissors", "scissors","paper","Paper"]
+    print("Please Input Valid Choice Next Time")
+    print(exit)
+    
 
 
 
