@@ -15,7 +15,6 @@ print("USER CHOSE:", user_choice)
 user_choice = user_choice.lower
 if user_choice not in ["rock", "Rock","Scissors", "scissors","paper","Paper"]
     print("Please Input Valid Choice Next Time")
-    print(exit)
     
 
 
